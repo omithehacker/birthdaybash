@@ -1,0 +1,7 @@
+const steps = [
+  { title: "Baby Era 👶", image: "/images/img1.jpg", letter: "Epistle 1 here" },
+  { title: "Toddler Era 🧸", image: "/images/img2.jpg", letter: "Epistle 2 here" },
+  { title: "Teenage Era 🎧", image: "/images/img3.jpg", letter: "Epistle 3 here" },
+  { title: "Young Adult Era ✨", image: "/images/img4.jpg", letter: "Epistle 4 here" },
+  { title: "Today 🤎", image: "/images/img5.jpg", letter: "Epistle 5 here" },
+];
