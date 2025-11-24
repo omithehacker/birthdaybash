@@ -1,5 +1,5 @@
 /* Import Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Dancing+Script&display=swap');
 
 /* Headings (titles) */
 .birthday-title {
@@ -13,7 +13,7 @@
 
 /* Epistles / Body Text */
 .epistle-text {
-  font-family: 'Pacifico', cursive; /* cursive for personal touch */
+  font-family: 'Dancing Script', cursive; /* cursive for personal touch */
   font-weight: 400;
   color: #6e5a45;
   font-size: 1.4rem;
@@ -68,7 +68,7 @@
   font-size: 1.7rem;
   padding: 1rem 1.8rem;
   border-radius: 1rem;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Dancing Script', cursive; /* replaced Pacifico */
   border: 2px solid #5a4631;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -85,9 +85,10 @@
 .final-message {
   margin-top: 1.5rem;
   color: #5a4631;
-  font-weight: bold;
+  font-weight: 400; /* lighter for cursive feel */
   font-size: 1.4rem;
   text-align: center;
+  font-family: 'Dancing Script', cursive; /* cursive */
 }
 
 /* Sparkles */

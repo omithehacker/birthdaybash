@@ -52,9 +52,13 @@ becoming someone strong, someone unshakable, someone real.`
 
   const [step, setStep] = useState(0);
 
-  const handleNext = () => {
-    if(step < steps.length - 1) setStep(step + 1);
-  };
+const handleNext = () => {
+  if (step < steps.length - 1) {
+    setStep(step + 1);
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // scrolls to top smoothly
+  }
+};
+
 
   return (
     <div className="birthday-page min-h-screen flex items-center justify-center p-4 sm:p-6 font-handwritten relative overflow-hidden">
