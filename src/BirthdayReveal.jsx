@@ -8,8 +8,8 @@ export default function BirthdayReveal() {
   const { width, height } = useWindowSize();
 
   const steps = [
-    { title: "Happy Birthday, Feranmi! 🎉", subtitle: "Tap to Begin", image: null, letter: null },
-    { title: "Baby Fera 👶", image: "/images/img1.jpg", letter: `Let’s start from the genesis before the revelation, 
+    { title: "Happy Birthday, Feranmi 🎉", subtitle: "Tap to Begin", image: null, letter: null },
+    { title: "Chapter 1: Baby Fera 👶", image: "/images/img1.jpg", letter: `Let’s start from the genesis before the revelation, 
 the baby before the man, the David before the Fera 😂, 
 the beginning of the first chapter of your life.
 
@@ -20,10 +20,34 @@ You were yet to be seen, yet to be heard.
 Now your voice is heard, but it remains misunderstood;
 now your name rings a bell, but it is the sound of doom.
 Oh Fera, my Fera, what have you done with little you?` },
-    { title: "Cutie 🧸", image: "/images/img2.jpg", letter: `I wasn’t there to see your tiny feet wobble across the floor, to laugh at your little triumphs, or to catch the tears no one noticed. But even from afar, I feel it—the spark of curiosity in your eyes, the quiet courage in your small hands reaching for a world too big for you. Each moment you discovered, each wonder you embraced, laid the first stones of who you were becoming. I may have missed the sound of your laughter echoing through rooms you called yours, but I carry it in my mind now, imagining every stumble, every playful shout, every quiet gaze. You were learning, growing, becoming more than the world could see, and even in my absence, I witness the beauty of those beginnings.` },
-    { title: "Hot boy 🤩", image: "/images/img3.jpg", letter: "Epistle 3 here" },
-    { title: "Let him cook 👨🏽‍🍳", image: "/images/img4.jpg", letter: "Epistle 4 here" },
-    { title: "Today 🤎", image: "/images/img5.jpg", letter: "Epistle 5 here" },
+    { title: "Chapter 2: Cutie Patootie 🧸", image: "/images/img2.jpg", letter: `Cute boy, pink lips, hasn’t understood what reality really means…
+Exploring life on your own terms, you remain steadfast amidst all the storm,
+Discovering your own voice, beginning to understand how the world really works,
+learning what softness feels like, understanding what pain tastes like,
+and how even the slightest hint of weakness can bring a grown man down.
+
+Your heart was simple, open, trusting.
+The world had not yet touched you with its sharp edges,
+it had not yet carved doubt into your heart
+or caution into your steps,
+you were just a cute innocent boy, the dark was all you feared.` },
+
+    { 
+  title: "Chapter 3: Hot boy 🤩", 
+  image: "/images/img3.jpg", 
+  letter: `Baddoski, ahan fine boy, no filter 😏😂...
+Here you started figuring out what it meant to live life on your own terms, you started to understand who you are, what you like, what you want, and who you refuse to be.
+The world was confusing, full of rules that didn’t make sense, but you walked through it with your head high, and mind sharp.
+Every mistake, every triumph, every unforgettable moment shaped the person you were becoming.
+
+You were learning to speak your mind, to feel without fear,
+to laugh when it hurt, to stand tall, to speak even when everybody else was afraid to talk.
+And even when no one noticed, when the quiet moments went unseen, you were growing,
+becoming someone strong, someone unshakable, someone real.` 
+},
+
+    { title: "Chapter 4: Let him cook 👨🏽‍🍳", image: "/images/img4.jpg", letter: "Look at you now… a whole ass public figure! That small boy of yesterday is now a public figure that millions recognize, thousands follow, and everyone has an opinion about. You turned what you love into something real, and fame didn’t break you, it made you. Behind all the TikTok chaos, you’re still… you. I see the walls you’ve built to protect yourself, the little defense system you’ve created so no one ever gets close enough to notice your hurt or catch you in a vulnerable moment. You try so hard to look strong, to make it seem like none of the hate gets to you. But even when the world gets loud, even when the noise rises and you feel your voice is not heard, when you feel yourself blending in with the crowd, I still see you, because I’m always watching. I still hear you, because I’m always listening. Even though I’m keeping my distance, you still have a place in my heart. So remember this, Fera: the world is yours to explore, and the sky is not your limit, it is your starting point. I’ll always be rooting for you 😘" },
+    { title: "The Big Day 🎉🤎", image: "/images/img5.jpg", letter: "Long story short, it's your day... Happy Birthday Feranmi ❤. I really hope you enjoy today, I know your birthdays have not always been kind, and yes you're not a perfect person but you have a good and gentle heart, even you deserve to be happy at least 1 day in a your life. And before you ask, yes i'm still atheist but I pray whatever brings you joy will not turn into pain, and whatever makes you smile will never fade away. I pray whatever your hand touches will not turn into ashes, and i pray you succeed in whatever you put your hand in. I hope you find peace for yourself and fera, don't forget it's still your story and you're the main character, don't let anyone define you or how your story is supposed to end, you're the author and finisher of your book, the plot is in your hands." },
   ];
 
   const [step, setStep] = useState(0);
@@ -95,7 +119,7 @@ Oh Fera, my Fera, what have you done with little you?` },
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1 }}
               >
-                🎉 Enjoy your day ml and i hope you finally have a good birthday without me ruining it 😊
+                🎉 Enjoy your day ml and i hope you finally have a good birthday without me ruining it 😊 Omi loves you ❤
               </motion.p>
             )}
           </motion.div>

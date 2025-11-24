@@ -1,7 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Pacifico&display=swap');
 
-.font-handwritten {
-  font-family: 'Dancing Script', cursive;
+/* Headings (titles) */
+.birthday-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #5a4631;
+  font-size: 3.3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Epistles / Body Text */
+.epistle-text {
+  font-family: 'Pacifico', cursive; /* cursive for personal touch */
+  font-weight: 400;
+  color: #6e5a45;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  background: rgba(255, 244, 233, 0.95);
+  padding: 1.8rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 10px rgba(90,70,49,0.1);
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 /* Page Background */
@@ -14,49 +36,28 @@
 /* Birthday Card */
 .birthday-card {
   position: relative;
-  z-index: 10; /* above beige background */
+  z-index: 10; /* above background */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   background: #fff; /* white card */
   border-radius: 2rem;
-  padding: 2.5rem 2rem;
+  padding: 3rem 2.5rem;
   box-shadow: 0 10px 30px rgba(90, 70, 49, 0.25);
   border: 2px solid #e6d8c7;
-  max-width: 400px;
+  max-width: 420px;
   width: 90%;
   text-align: center;
 }
 
 /* Image Square */
 .image-square {
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
   object-fit: cover;
   border-radius: 1.5rem;
   box-shadow: 0 6px 12px rgba(90,70,49,0.25);
-  margin-bottom: 1.5rem;
-}
-
-/* Epistle Text */
-.epistle-text {
-  background: rgba(255, 244, 233, 0.9);
-  padding: 1.5rem;
-  border-radius: 1.5rem;
-  box-shadow: 0 4px 10px rgba(90,70,49,0.1);
-  color: #6e5a45;
-  font-size: 1.3rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-/* Title */
-.birthday-title {
-  color: #5a4631;
-  font-size: 3rem;
-  font-weight: bold;
   margin-bottom: 1.5rem;
 }
 
@@ -64,10 +65,10 @@
 .birthday-btn {
   background: #d6c5b3; /* beige */
   color: #5a4631; /* dark brown */
-  font-size: 1.6rem;
-  padding: 0.9rem 1.7rem;
+  font-size: 1.7rem;
+  padding: 1rem 1.8rem;
   border-radius: 1rem;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
   border: 2px solid #5a4631;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -85,11 +86,11 @@
   margin-top: 1.5rem;
   color: #5a4631;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: center;
 }
 
-/* Sparkles (optional) */
+/* Sparkles */
 .sparkles {
   position: absolute;
   top: 0;
@@ -114,22 +115,22 @@
 /* Responsive */
 @media (max-width: 640px) {
   .birthday-card {
-    padding: 2rem 1.5rem;
+    padding: 2.5rem 1.5rem;
   }
   .image-square {
-    width: 60vw;
-    height: 60vw;
+    width: 65vw;
+    height: 65vw;
     margin-bottom: 1rem;
   }
   .birthday-title {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
   .epistle-text {
-    font-size: 1.1rem;
-    padding: 1rem 1.2rem;
+    font-size: 1.2rem;
+    padding: 1.2rem 1.5rem;
   }
   .birthday-btn {
-    font-size: 1.4rem;
-    padding: 0.7rem 1.3rem;
+    font-size: 1.5rem;
+    padding: 0.8rem 1.4rem;
   }
 }
